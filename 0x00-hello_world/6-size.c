@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: always 0 (success)
- * Description: A main.c function that returns 0
- */
- 
+* main - Entry point
+* Return: always 0 (success)
+* Description: A main.c function that returns 0
+*/ 
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
