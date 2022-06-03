@@ -7,6 +7,7 @@
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	/* description: returns 0 */
+	
 	return (0);
+	/* description: returns  the value of 0 */
 }
