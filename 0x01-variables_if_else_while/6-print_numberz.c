@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
- *  main - The stdio.h is to enable putchar to work.
- *  Description - The main.c will print out lower
- *  Return: Always(0) Success
+* main - prints all the numbers of base 16 in lowercase
+*
+* Description: The numbers are all single digits
+* Return: Always(0) Success
 */
 int main(void)
 {
@@ -15,7 +15,9 @@ int main(void)
 		putchar(i);
 		i++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
 
