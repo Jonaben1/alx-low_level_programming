@@ -22,6 +22,7 @@ int main(void)
 		putchar(y);
 		y++;
 	}
+	putchar('\n');
 	return (0);
 }
 
