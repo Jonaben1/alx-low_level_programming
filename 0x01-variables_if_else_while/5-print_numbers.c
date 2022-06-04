@@ -1,15 +1,15 @@
 #include <stdio.h>
-int main()
-{
-/** The stdio.h is to enable putchar 
+
+/**
+ *  main - The stdio.h is to enable putchar
  *  to work.
+ *  Description -  The main.c will print out lower case
+ *  Return: Always(0) Success
 */
-
-/** The main.c will print out lower
- *  case aplhabet from a- z
-*/
-
+int main(void)
+{
 	int i;
+
 	i = 0;
 	while (i < 10)
 	{
