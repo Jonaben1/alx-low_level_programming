@@ -1,21 +1,17 @@
 #include <stdio.h>
-
 /**
- *  main - The stdio.h is to enable putchar to work.
- *  Description - The main.c will print out lower
+ *  main - to print out numbers to 9
+ *  Description: The main function will print out the numbers
  *  Return: Always(0) Success
 */
 int main(void)
-{
-	int i;
-
+{	int i;
 	i = 0;
+
 	while (i < 10)
-	{
-		putchar(i);
+{		putchar(i);
 		i++;
 	}
 	putchar('\n');
 	return (0);
 }
-
