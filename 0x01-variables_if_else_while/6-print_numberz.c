@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
  *  main - The function to print out single digit numbers
@@ -7,10 +8,10 @@
 
 int main(void)
 {
-	int i;
+	char i;
 
-	i = 0;
-	while (i < 10)
+	i = '0';
+	while (i <= '9')
 	{
 		putchar(i);
 		i++;
