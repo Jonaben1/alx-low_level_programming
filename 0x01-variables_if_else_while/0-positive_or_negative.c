@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/** more headers goes there 
- *  Notice the two libraries included
- */
-
-/** The main function will generate
- *  random number when called
+/**
+ *  main - assign a random number to a variable and execute
+ *
+ *  Description: The numbers are all single digits
+ *  Return: Always(0) Success
  */
 int main(void)
 {
@@ -13,8 +12,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/** your code goes there 
-	 *  Here, we will perform a 
+	/**
+	 *  your code goes there
+	 *  Here, we will perform a
 	 *  logical operation
 	 */
 	if (n > 0)
