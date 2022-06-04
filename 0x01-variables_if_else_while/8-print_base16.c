@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i, x;
+
 	i = 48;
 	while (i < 58)
 	{
@@ -16,7 +17,7 @@ int main(void)
 	}
 
 	x = 'a';
-        while (x <= 'f')
+	while (x <= 'f')
 	{
 		putchar(x);
 		x++;
