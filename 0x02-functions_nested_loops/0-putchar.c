@@ -15,6 +15,6 @@ int main(void)
 		_putchar(bum);
 		bum++;
 	}
-	_putchar('\n');
+
 	return (0);
 }
