@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int bum;
+	char bum;
 	bum  = '0';
 	while (bum <= '9')
 	{
