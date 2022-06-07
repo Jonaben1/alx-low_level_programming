@@ -8,13 +8,14 @@
 
 int main(void)
 {
-	char bum;
-	bum  = '0';
-	while (bum <= '9')
-	{
-		_putchar(bum);
-		bum++;
-	}
+	int *b  = "Main";
 
+
+	while (*b)
+	{
+		_putchar(*b);
+		*b++;
+	}
+	_putchar('\n');
 	return (0);
 }
