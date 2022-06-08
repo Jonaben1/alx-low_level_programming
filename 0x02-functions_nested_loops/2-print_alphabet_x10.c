@@ -12,7 +12,7 @@ int main(){
 
 	while (y < 10)
 	{
-		for (x = a; x <= z; x++)
+		for (x = 'a'; x <= 'z'; x++)
 		{
 			_putchar(x);
 		}
