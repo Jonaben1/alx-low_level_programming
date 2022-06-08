@@ -8,14 +8,10 @@
 
 int main(void)
 {
-	int *b  = "Main";
+	int s  = 'M';
 
 
-	while (*b)
-	{
-		_putchar(*b);
-		*b++;
-	}
+	_putchar(s);
 	_putchar('\n');
 	return (0);
 }
