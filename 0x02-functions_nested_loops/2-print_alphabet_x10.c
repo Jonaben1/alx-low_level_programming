@@ -7,10 +7,11 @@
  */
 int main(void)
 {
-	int leta, leta2;
+	int leta;
+	int leta2;
 
 
-	for (leta = 0; leta <= 9; leta++;
+	for (leta = 0; leta <= 9; leta++)
 	{
 		for (leta2 = 'a'; leta2 <= 'z'; leta2++)
 		{
