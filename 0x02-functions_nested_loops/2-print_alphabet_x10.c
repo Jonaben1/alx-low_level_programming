@@ -5,7 +5,8 @@
  *
  * Return: x10 a-z
  */
-int main(){
+int main()
+{
 	int x, y;
 
 	y = 0;
@@ -15,7 +16,7 @@ int main(){
 		for (x = 'a'; x <= 'z'; x++)
 		{
 			_putchar(x);
-		}
+ 		}
 		y++;
 		_putchar('\n');
 	}
