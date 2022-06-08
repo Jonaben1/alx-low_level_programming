@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * main  - Entry point funct to print
+ * main - Prints Holberton
  *
- * Return: On success 1.
- *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int s  = 'M';
-
-
-	_putchar(s);
-	_putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
