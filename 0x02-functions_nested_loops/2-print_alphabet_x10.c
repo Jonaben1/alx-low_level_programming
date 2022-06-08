@@ -7,17 +7,15 @@
  */
 int main(void)
 {
-	int x, y;
+	int leta, leta2;
 
-	y = 0;
 
-	while (y < 10)
+	for (leta = 0; leta <= 9; leta++;
 	{
-		for (x = 'a'; x <= 'z'; x++)
+		for (leta2 = 'a'; leta2 <= 'z'; leta2++)
 		{
-			_putchar(x);
+			_putchar(leta2);
 		}
-		y++;
 		_putchar('\n');
 	}
 }
