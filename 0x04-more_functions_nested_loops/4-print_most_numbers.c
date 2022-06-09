@@ -4,6 +4,7 @@
  *  Return: Always 0 success
 */
 
+
 void print_most_numbers(void)
 {
 	int x;
@@ -11,9 +12,9 @@ void print_most_numbers(void)
 	for (x = '0'; x <= '9'; x++)
 	{
 		if (x != '2' && x != '4')
-		{
+
 			_putchar(x);
-		}
+
 	}
-	return (0);
+	_putchar('\n');
 }
