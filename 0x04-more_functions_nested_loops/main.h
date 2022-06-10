@@ -1,6 +1,7 @@
 #ifndef _MAIN_M_
 #define _MAIN_M_
 
+void print_number(int n);
 void print_triangle(int size);
 int _putchar(char c);
 int _isupper(int c);
