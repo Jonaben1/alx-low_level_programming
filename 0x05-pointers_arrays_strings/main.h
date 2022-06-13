@@ -1,6 +1,9 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+int atoi(char -s);
 int _putchar(char c);
 void puts2(char *str);
 void reset_to_98(int *n);
