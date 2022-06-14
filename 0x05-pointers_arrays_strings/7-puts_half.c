@@ -16,7 +16,7 @@ void puts_half(char *str)
 	{
 		neg++;
 	}
-	even = (neg/2);
+	even = (neg / 2);
 	if ((ct % 2) == 1)
 	{
 		even = ((even + 1) / 2);
