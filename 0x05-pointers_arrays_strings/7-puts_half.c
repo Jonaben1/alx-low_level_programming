@@ -10,19 +10,21 @@ void puts_half(char *str)
 {
 	int ct, even, neg;
 
+	neg = 0;
+
 	for (ct = 0; str[ct] != '\0'; ct++)
-		;
 	{
-		if ((ct % 2) == 0)
-		{
-			for (even = ct / 2; str[even] != '\0'; even++)
-			{
-				_putchar(str[even]);
-			}
-		else
-		{
-			for (neg = (ct - 1) / 2; str[neg] != '\0'; neg++)
-			_putchar(str[neg + 1]);
-		}
+		neg++;
+	}
+	even = (neg/2);
+	if ((ct % 2) == 1)
+	{
+		even = ((even + 1) / 2);
+	}
+	for (ct = even; str[ct] != '\0'; ct++)
+	{
+		_putchar(str[ct]);
+	}
+
 	_putchar('\n');
 }
