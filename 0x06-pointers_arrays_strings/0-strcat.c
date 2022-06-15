@@ -7,7 +7,7 @@
  *  Return: Always 0 success
 */
 
-char *_strcat(char dest, char src)
+char *_strcat(char *dest, char *src)
 {
 	char *star = dest;
 
