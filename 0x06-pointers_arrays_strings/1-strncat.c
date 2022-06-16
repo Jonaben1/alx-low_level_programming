@@ -3,7 +3,8 @@
 /**
  *  _strncat - the function that concat two strings
  *  @dest: the first par being tested
- *  @src: rhe second par being tested
+ *  @src: the second par being tested
+ *  @n: the third par being tested
  *  Return: Always 0 success
 */
 

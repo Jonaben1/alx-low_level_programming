@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - Entry point
+ * rot13 - Entry point
  * ONE if, TWO loops only...
  * @n: input
  * Return: Always 0 (Success)
