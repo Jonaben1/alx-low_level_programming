@@ -1,22 +1,28 @@
-include "main.h"
+#include "main.h"
 
 /**
- * rot13 - encode a string using rot13 encryption
- * @targ: the target string to encrypt
- * Return: the encrypted string
+ * leet - Entry point
+ * ONE if, TWO loops only...
+ * @n: input
+ * Return: Always 0 (Success)
  */
-char *rot13(char *targ)
+char *rot13(char *n)
 {
-	int x = 0, y = 0, neg = -1;
-	char alpha[] = "ANBOCPDQERFSGTHUIVJWKXLYMZanbocpdqerfsgthuivjwkxlymz";
+	int i, x;
+	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int replacer[] = {'4', '3', '0', '7', '1'};
 
-	for (x = 0; targ[x]; x++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		neg = 1;
-		for (y = 0; targ[x] != alpha[y] && y < 52; y++)
-			neg = (neg * -1);
-		if (targ[x] == alpha[y])
-			targ[x] = (targ[x] + (13 * neg));
+		for (x = 0; x <= 9; x++)
+		{
+			if (n[i] == find[x])
+			{
+				n[i] = replacer[x / 2];
+				x = 9;
+			}
+		}
 	}
-	return (targ);
+
+	return (n);
 }
