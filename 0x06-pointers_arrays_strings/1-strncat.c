@@ -7,7 +7,6 @@
  *  Return: Always 0 success
 */
 
-*/
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, co;
