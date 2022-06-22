@@ -9,17 +9,10 @@
 
 int _pow_recursion(int x, int y)
 {
-	long double result = 1.0;
-
 	if (y < 0)
-	{
 		return (-1);
-	}
-	while (y != 0)
-	{
-		result *= x;
-		--y;
-	}
-	return (result);
+	if (y != 0)
+		return (x * _pow_recursion(x, y-1));
+	else
+		return (1);
 }
-
