@@ -6,9 +6,10 @@
  *  main - a function that adds postive numbers
  *  @argc: the command line being used
  *  @argv: the command line being used
+ *  return: Always 0 success
  */
 
-int main(int argc, char *argv [])
+int main(int argc, char *argv[])
 {
 	int x;
 	int y;
@@ -17,7 +18,8 @@ int main(int argc, char *argv [])
 	for (x = 1; x < argc; x++)
 	{
 		for (y = 0; argv[x][y] != '\0'; y++)
-		{	if (argv[x][y] < '0' || argv[x][y] > '9')
+		{
+			if (argv[x][y] < '0' || argv[x][y] > '9')
 			{
 				printf("Error\n");
 				return (1);
