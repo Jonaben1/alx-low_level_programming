@@ -6,7 +6,7 @@
  *  main - a function that adds postive numbers
  *  @argc: the command line being used
  *  @argv: the command line being used
- *  return: Always 0 success
+ *  Return: Always 0 success
  */
 
 int main(int argc, char *argv[])
