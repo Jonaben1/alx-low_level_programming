@@ -1,11 +1,11 @@
-#ifndef PET
-#define PET
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - a pet dog  with some information about it
- * @name: First member
- * @age: Second member
- * @owner: Third member
+ * @name: Name of dog
+ * @age: Age of dog
+ * @owner: Owner of dog
  * Description: Some information include name, age and the owner of the dog
  */
 
