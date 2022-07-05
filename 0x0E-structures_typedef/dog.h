@@ -6,7 +6,7 @@
  * @name: First member
  * @age: Second member
  * @owner: Third member
- * Description: Some information include name, agez and the owner of the dog
+ * Description: Some information include name, age and the owner of the dog
  */
 
 struct dog
@@ -15,7 +15,7 @@ struct dog
 	float age;
 	char *owner;
 };
-
+int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
