@@ -1,3 +1,6 @@
+#ifndef PET
+#define PET
+
 /**
  * struct dog - a pet dog  with some information about it
  * @name: First member
@@ -13,6 +16,7 @@ struct dog
 	char *owner;
 };
 
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 
-
+#endif
