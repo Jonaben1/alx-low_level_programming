@@ -1,0 +1,12 @@
+#ifndef _VARIADIC_FUNCTIONS_N_
+#define _VARIADIC_FUNCTIONS_N_
+
+int _putchar(char c);
+int sum_them_all(const unsigned int n, ...);
+
+
+
+
+
+
+#endif
