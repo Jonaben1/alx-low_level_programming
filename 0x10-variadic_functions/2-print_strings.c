@@ -17,9 +17,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list tom;
 	va_start(tom, n);
 
+	if (separator == NULL)
+		return;
 	for (i  = 0; i < n; i++)
 	{
 		sky = va_arg(tom, const char *);
+		if (sky  == NULL)
+		{
+			sky  = "(nil)";
+		}
 		printf("%s", sky);
 		if (i != (n -1))
 		{
