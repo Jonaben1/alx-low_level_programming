@@ -14,7 +14,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *sky;
+
 	va_list tom;
+
 	va_start(tom, n);
 
 	if (separator == NULL)
@@ -27,7 +29,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			sky  = "(nil)";
 		}
 		printf("%s", sky);
-		if (i != (n -1))
+		if (i != (n - 1))
 		{
 			printf("%s", separator);
 		}
