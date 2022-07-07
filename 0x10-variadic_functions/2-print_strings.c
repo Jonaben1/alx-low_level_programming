@@ -13,7 +13,7 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	const char *sky;
+	char *sky;
 	va_list tom;
 	va_start(tom, n);
 
@@ -21,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		return;
 	for (i  = 0; i < n; i++)
 	{
-		sky = va_arg(tom, const char *);
+		sky = va_arg(tom, char *);
 		if (sky  == NULL)
 		{
 			sky  = "(nil)";
