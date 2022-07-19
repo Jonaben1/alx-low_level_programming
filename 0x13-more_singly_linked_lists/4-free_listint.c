@@ -1,14 +1,9 @@
 #include "lists.h"
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
 /**
- * free_listint - a function that free a linked list
- * @head: the pointer used
- * Return: Always 0 success
-*/
-
+ * free_listint - Entry Point
+ * @head: head
+ * Return: 0
+ */
 void free_listint(listint_t *head)
 {
 	if (head == NULL)
