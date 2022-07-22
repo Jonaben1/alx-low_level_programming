@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * set_bit - a function that sets the value of a bit to 1 at a given index
+ * clear_bit - a function that sets the value of a bit to 1 at a given index
  * @n: the pointer used
  * @index: the character used
  * Return: Always 0 success
