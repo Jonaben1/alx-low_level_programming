@@ -7,7 +7,7 @@
  * print_dlistint - a function that prints all elements
  * of a linked list
  * @h: pointer being used
- * return: number of node (success)
+ * Return: number of node (success)
 */
 
 size_t print_dlistint(const dlistint_t *h)
