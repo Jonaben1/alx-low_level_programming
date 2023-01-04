@@ -1,4 +1,5 @@
 #include "search_algos.h"
+#include <stdio.h>
 /**
  * linear_search - linear search algorithm
  * @array: array of ints
